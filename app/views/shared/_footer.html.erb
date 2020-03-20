@@ -1,0 +1,15 @@
+<nav class="nav navbar-expand-lg navbar-light bg-light justify-content-center fixed-bottom">
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" href="/"><i class="fas fa-home"></i></a>
+    </li>
+    <li class="nav-item">
+      <%= link_to new_post_path, class: "nav-link" do %>
+        <i class="far fa-plus-square"></i>
+      <% end %>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/"><i class="fas fa-user"></i></a>
+    </li>
+  </ul>
+</nav>
